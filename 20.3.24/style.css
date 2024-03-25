@@ -41,7 +41,7 @@ body {
     padding: 20px;
 }
 
-button {
+#btns {
     width: 50px;
     height: 50px;
     border: none;
@@ -51,18 +51,27 @@ button {
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-button:hover {
+#btns:hover {
     background-color: hsl(0, 0%, 50%);
 }
 
-button:active {
+#btns:active {
     background-color: hsl(0, 0%, 10%);
 }
 
 .oper-btn {
     background-color: #fb8500;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .oper-btn:hover {
