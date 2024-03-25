@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    background-color: azure;
+    width: 250px;
+    height: 40px;
+    border-radius: 13px
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
+const userInput = document.getElementById('input');
 function number_cardinality() {
-    const userInput = document.getElementById('input').value;
-    if (!isNaN(userInput)) {
-        alert(checkCardinality(parseInt(userInput)));
+    if (!isNaN(userInput.value)) {
+        alert(checkCardinality(parseInt(userInput.value)));
     } else {
         alert("Invalid input. Please enter a valid integer!!");
     }
@@ -10,6 +10,7 @@ function number_cardinality() {
 function checkCardinality(number) {
     if (number % 10 === 0) {
         return "zero";
+        userInput.value = ''
     } else if (number % 10 === 5) {
         return "five";
     } else if (number % 2 === 0) {
