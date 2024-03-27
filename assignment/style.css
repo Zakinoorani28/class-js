@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -11,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 h1 {
     display: flex;
     justify-content: center;
@@ -27,7 +29,7 @@ input {
     background-color: azure;
     width: 250px;
     height: 50px;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 button {
