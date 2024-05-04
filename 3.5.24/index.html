@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="background">
+    <!-- Assignment 1 -->
+    <center>
+        <h1>CHANGING COLOUR</h1>
+
+        <hr />
+
+        <div>
+            <button onclick="red()" id="btn-1">RED</button>
+            <button onclick="green()" id="btn-1">GREEN</button>
+            <button onclick="blue()" id="btn-1">BLUE</button>
+        </div>
+
+        <hr />
+
+        <h2 id="heading">Zaki Noorani</h2>
+
+        <hr />
+
+        <div>
+            <button onclick="document.getElementsByTagName('h2') [0].innerHTML = 'ZAKI NOORANI' " id="btn-1">
+                Upper Case
+            </button>
+            <button onclick="document.getElementsByTagName('h2') [0].innerHTML = 'zaki noorani' " id="btn-1">
+                Lower Case
+            </button>
+        </div>
+
+        <hr />
+
+        <button onclick="reset()" id="btn-1">RESET</button>
+
+        <hr />
+    </center>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
